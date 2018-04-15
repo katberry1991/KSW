@@ -1,14 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Showkase - Minimal Portfolio Template</title>
+    <title>Kingsberry Web Solutions</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=9" />-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Abel&amp;Open+Sans" rel="stylesheet">
+     <!--<link rel="stylesheet" type="text/css" href="css/reset.css/reset.css/reset">-->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <!-- Font Awesome -->
@@ -41,7 +43,7 @@
             <div class="row">
                 <div class="col-md-2">
                     <div class="logo">
-                        <a href="index.html"><img class="custom-class" class="img-fluid" src="images/kwslogo2.png" alt="logo";></a>
+                        <a href="index.html"><img class="img-responsive" src="images/kwslogo2.png" alt="logo";></a>
                     </div>
                 </div>
                 <div class="col-md-10">
@@ -58,7 +60,7 @@
                                     <li><a href="#creative-services.html">Services</a></li>
                                 </ul>
                             </li> -->
-                            <li><a class=.responsive-menu href="#creative-services.html">SERVICES</a>
+                            <li><a class=.responsive-menu href="#creative-services.html">SERVICES & PRICING</a>
                             <li><a href="#portfolio-grid-2.html">Portfolio</a>
                               <!--  <ul class="sub-menu">
                                             <li><a href="portfolio-grid-2.html">Samples</a></li>
@@ -77,15 +79,19 @@
     </header>
     <!-- Header End -->
     <!-- Banner -->
+	
     <span id="index.html">
-    <section class="creative-banner">
+    <section class="creative-banner" class="index">
         <div  data-nav-dots="false" data-nav-arrow="true" data-items="1" data-sm-items="1" data-lg-items="1" data-md-items="1" data-autoplay="true">
-            <div class="item"> <img class="img-fluid" src="images/home.jpg" alt="person sittng on bench">
-                <div class="creative-text text-left">
-                    <h1 class="iq-font-white iq-mt-10"><strong>Go Ahead, Share Your Idea <br>With The World</br></strong></h1> <!--Original class = "text-uppercase iq-font-white display-3"-->
-                    <h1 class="iq-font-white iq-mt-10"><strong>We'll Help</strong></h1>
-                </div>
+            <div class="item" > <img class="img-fluid" src="images/home.png" alt="person sittng on bench">
+                
+                    <h1 ="iq-font-white iq-mt-10" class="left" style="color: white; font-size: 4vw;"><strong style="color: white;
+    text-shadow: 2px 2px 4px #000000;">Go Ahead, Share Your Idea With The World</strong></h1> <!--Original class = "text-uppercase iq-font-white display-3"-->
+                    <h1 ="iq-font-white iq-mt-10" class="leftbelow" style="color: white; font-size: 4vw;"><strong style="color: white;
+    text-shadow: 2px 2px 4px #000000;">We'll Help</strong></h1>
+                <!--<br></br> tag and left/leftbelow classes are effecting text resizing for 'With the World'. IFor smaller screen sizes to diplay correctly, margin needs to be set yto 40% . Refer to lines 1179-1185 for additional details. This may be a specification that needs to be set when creating @media queries for responsiveness.-->
             </div>
+	
           <!-- <div class="item"> <img class="img-fluid" src="http://via.placeholder.com/1600x800" alt="#">
                 <div class="creative-text text-center">
                     <h1 class="text-uppercase iq-font-white display-3">Showkase</h1>
@@ -109,19 +115,23 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="heading-title">
-                            <h3 class="title">About Kingsberry Web Solutions</h3>
-                            <p>KWS dilligently strives to assist a variety of busineses and organizations in enhancing their online presence and communities. Whether the goal is to improve user experience with custom web design, find the right web hosting plan, or improve site traffic with SEO; we're here to help.</p>
+                            <h3>About Kingsberry Web Solutions</h3>
+                            <p>KWS diligently strives to assist a variety of businesses and organizations in enhancing their online presence and communities. Whether the goal is to improve user experience with custom web design, find the right web hosting plan, or improve site traffic with SEO; we're here to help.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row iq-mt-20">
                     <div class="col-lg-12">
                         <div class="isotope-filters isotope-dots text-isotope">
-                            <button data-filter="" class="all active">All</button>
-                            <button data-filter=".photography">Web Design & Development</button>
-                            <button data-filter=".illustration">Web Hosting</button>
-                            <button data-filter=".branding">SEO</button>
+                            
+                        <!--    <p style="font-weight: bold;" style="font-size: 8vw;">Web Design & Development</p>
+                            <p>Web Hosting</p>
+                            <p>SEO</p>
                             <!--<button data-filter=".design">web-design</button>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
                         </div>
                     </div>
                 </div>
@@ -131,32 +141,32 @@
                     <div class="col-lg-12 col-md-12">
                         <div class="isotope column-space column-3 popup-gallery">
                             <div class="grid-item illustration photography">
-                                <div class="portfolio-snip">
+                                <div>
                                     <img class="img-fluid" src="http://via.placeholder.com/600x450" alt="#">
                                     <div class="snip-details text-center">
-                                        <a class="iq-full popup-img" href="http://via.placeholder.com/600x450"> <i class="ion-ios-camera-outline"></i> </a>
-                                        <h4 class="item-title"><a href="#">Showkase 01</a></h4>
-                                        <span class="category">I Love It</span>
+                                        <a class="iq-full popup-img" href="http://via.placeholder.com/600x450"> <i class="iq-font-white ion-ios-camera-outline"></i> </a>
+                                        <h4 class="item-title"><a href="#">Web Design & Development</a></h4>
+                                        <span class="category"></span>
                                     </div>
                                 </div>
                             </div>
                             <div class="grid-item design branding">
-                                <div class="portfolio-snip">
+                                <div>
                                     <img class="img-fluid" src="http://via.placeholder.com/600x450" alt="#">
                                     <div class="snip-details text-center">
-                                        <a class="iq-full popup-img" href="http://via.placeholder.com/600x450"> <i class="ion-ios-camera-outline"></i> </a>
-                                        <h4 class="item-title"><a href="#">Showkase 02</a></h4>
-                                        <span class="category">I Love It</span>
+                                        <a class="iq-full popup-img" href="http://via.placeholder.com/600x450"> <i class="iq-font-white ion-ios-camera-outline"></i> </a>
+                                        <h4 class="item-title"><a href="#">Web Hosting</a></h4>
+                                        <span class="category"></span>
                                     </div>
                                 </div>
                             </div>
                             <div class="grid-item illustration branding">
-                                <div class="portfolio-snip">
+                                <div>
                                     <img class="img-fluid" src="http://via.placeholder.com/600x450" alt="#">
                                     <div class="snip-details text-center">
-                                        <a class="iq-full popup-img" href="http://via.placeholder.com/600x450"> <i class="ion-ios-camera-outline"></i> </a>
-                                        <h4 class="item-title"><a href="#">Showkase 03</a></h4>
-                                        <span class="category">I Love It</span>
+                                        <a class="iq-full popup-img" href="http://via.placeholder.com/600x450"> <i class="iq-font-white ion-ios-camera-outline"></i> </a>
+                                        <h4 class="item-title"><a href="#">SEO</a></h4>
+                                        <span class="category"></span>
                                     </div>
                                 </div>
                             </div>
@@ -284,6 +294,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="iq-breadcrumb">
+					<br></br>
+					<br></br>
+					<br></br>
                         <h2 class="text-uppercase iq-font-white">About</h2>
                        <h2 class="iq-font-white">The Designer & Developer</h2>
                     </div>
@@ -306,17 +319,17 @@
                         </div>
                     </div>
                                                
-                    <div class="col-lg-8">
-                        <h1 class="iq-mtb-10">Kathryn Kingsberry</h1>
+                    <div class="col-lg-8"  class="leftpic">
+                        <h1 class="iq-mtb-10" >Kathryn Kingsberry</h1>
                         <p><i>"If you're trying to create a company, it's like baking a cake. You have to have all ingredients in the right proportion." - Elon Musk</i></p>
-                        <h5 class="iq-tw-6 iq-ml-30"><p>Kathryn Kingsberry, based in Encino, California, developed a passion for web design and development after working for several years at a software company that specialized in web-based data management solutions. After traveling to a number of non-profits nationwide to conduct workshops for organizations using the software, she realized just how vital technology is in enriching individual lives and communities as a whole.</p>This realization inspired her to complete an intensive course in fullstack web devlopment at UCLA and begin building websites for inidividuals and businesses tirelessly working to improve the world around them. In this process, she has learned that it does indeed require the right ingredients for an organization to thrive and one of these ingredients is an effective online presence. Through Kingsberry Web Solutions, her goal is to assist budding entrepreneurs and a variety of organizations to build and maintain that presence.</h5>
+                        <h5 class="iq-tw-6 iq-ml-30" ><p>Kathryn Kingsberry, based in Encino, California, developed a passion for web design and development after working for several years at a software company that specialized in web-based data management solutions. After traveling to a number of non-profits nationwide to conduct workshops for organizations using the software, she realized just how vital technology is in enriching individual lives and communities as a whole.</p>This realization inspired her to complete an intensive course in fullstack web devlopment at UCLA and begin building websites for inidividuals and businesses tirelessly working to improve the world around them. In this process, she has learned that it does indeed require the right ingredients for an organization to thrive and one of these ingredients is an effective online presence. Through Kingsberry Web Solutions, her goal is to assist budding entrepreneurs and a variety of organizations to build and maintain that presence.</h5>
                         <div class="row iq-mt-20 iq-ml-20">
                             <div class="col-sm-6">
                                 <ul>
                                     <!--<li class="iq-mb-10"> <span class="iq-tw-6 iq-font-black iq-lead iq-mr-10">Name :</span> John deo</li>-->
                                     <li class="iq-mb-10"> <span class="iq-tw-6 iq-font-black iq-lead iq-mr-10">Freelance :</span> Available</li>
                                     <!--<li class="iq-mb-10"> <span class="iq-tw-6 iq-font-black iq-lead iq-mr-10">Date of birth :</span> 29-09-1990</li>-->
-                                    <li class="iq-mb-10"> <span class="iq-tw-6 iq-font-black iq-lead iq-mr-10">Email :</span> <a href="#">kathryno@kingsberrywebsolutions.com</a></li>
+                                    <li class="iq-mb-10"> <span class="iq-tw-6 iq-font-black iq-lead iq-mr-10">Email :</span> <a href="#">kathryn@kingsberrywebsolutions.com</a></li>
                                     <li class="iq-mb-10"> <span class="iq-tw-6 iq-font-black iq-lead iq-mr-10">Phone :</span> (818)-301-8014</li>
                                 </ul>
                             </div>
@@ -332,7 +345,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row iq-mt-40">
+              <!--  <div class="row iq-mt-40">
                     <div class="col-md-6">
                         <div class="iq-skill1">
                             <div class="iq-progress-bar">
@@ -372,7 +385,7 @@
                                 </p>
                                 <div class="iq-progress-bar">
                                     <span class="title">JavaScript</span>
-                                    <span data-percent="70"></span>
+                                    <span data-percent="70"></span> -->
                                 </div>
                             </div>
                         </div>
@@ -422,6 +435,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="iq-breadcrumb">
+					<br></br>
+					<br></br>
+					<br></br>
                         <h2 class="text-uppercase iq-font-white">Services Offered</h2>
                         <h6 class="iq-font-white">Service Overview</h6>
                     </div>
@@ -434,9 +450,9 @@
     <div class="main-content">
         <!-- Classic Service -->
         <section class="iq-ptb-60 pink-bg">
-            <div class="container">
+            <div class="container" >
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12 iq-mtb-15">
+                    <div class="col-lg-4 col-md-4 col-sm-12 iq-mtb-15" >
                         <div class="iq-fancy-box text-center">
                             <div class="iq-icon">
                                 <i aria-hidden="true" class="iq-font-white ion-ios-monitor-outline"></i>
@@ -485,35 +501,35 @@
         </section>
         <!-- Classic Service -->
         <!-- About Service -->
-        <section class="iq-ptb-80">
+        <section class="iq-ptb-80" >
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <img class="img-fluid" src="http://via.placeholder.com/800x500" alt="#">
+                        <!--<img class="img-fluid" src="http://via.placeholder.com/800x500" alt="#">-->
                     </div>
                     <div class="col-lg-6">
                         <div class="iq-mt-50">
                             <span class="category">WordPress / BootStrap / JavaScript / SQL</span>
-                            <h2 class="item-title"><a href="#"></a>Web Design  & Development</h2>
-                            <p>Build the right site for your business. This can range from a basic informational site to provide an overviw of your company to an E-Commerce store visitors can use to purchase products on or even a fullscale web app. We use a spectrum of technologies such as WordPress and BootStrap for design as well as popular JavaScript frameworks for functinality. If you need a database to store and manage digital records, we can use SQL or MySQL to meet this need.</p>
+                            <h2 class="item-title" ><a href="#"></a>Web Design  & Development</h2>
+                            <p style="margin-bottom: -10%">Build the right site for your business. This can range from a basic informational site to provide an overviw of your company to an E-Commerce store visitors can use to purchase products on or even a fullscale web app. We use a spectrum of technologies such as WordPress and BootStrap for design as well as popular JavaScript frameworks for functinality. If you need a database to store and manage digital records, we can use SQL or MySQL to meet this need.</p>
                         </div>
                     </div>
                 </div>
-                <div class="row iq-mt-60">
+               <div class="row iq-mt-60">
                     <div class="col-lg-6">
                         <div class="iq-mt-50">
                             <span class="category">Web Host Services</span>
-                            <h2 class="item-title"><a href="#">Web Hosting</a></h2>
+                            <h2 class="item-title" ><a href="#">Web Hosting</a></h2>
                             <p>Having a website is great, but it would also be preferable for it to be accessible to the public. We can help you accomplish this by providing feedback and suggestions for the best web host to meet your requirements and assist you with the purchase and setup process.</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <img class="img-fluid" src="http://via.placeholder.com/800x500" alt="#">
+                        <!--<img class="img-fluid" src="http://via.placeholder.com/800x500" alt="#">-->
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
-                        <img class="img-fluid" src="http://via.placeholder.com/800x500" alt="#">
+                       <!-- <img class="img-fluid" src="http://via.placeholder.com/800x500" alt="#">-->
                     </div>
                     <div class="col-lg-6">
                         <div class="iq-mt-50">
@@ -526,14 +542,156 @@
             </div>
         </section>
     </div>
+    <!--Pricing-->
+     <section class="iq-ptb-60 white-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="heading-title">
+                            <h3>Pricing</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley,</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 iq-mtb-20">
+                        <div class="price-blog iq-pall-20 iq-pt-30 iq-pb-30 text-center wow slideInUp" data-wow-duration="1.0s">
+                            <h3>Starter Plan #1</h3>
+                            <div class="price"><span>19 $</span> / Month</div>
+                            <div class="listing iq-mt-40">
+                                <ul>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>Photoshop</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>HTML5 &amp; CSS 5</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-times" aria-hidden="true"></i></span>Wordpress</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-times" aria-hidden="true"></i></span>Javascript</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-times" aria-hidden="true"></i></span>Animation</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12 d-flex justify-content-center iq-mt-30">
+                                <a class="button light" href="#">Get Standard Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 iq-mtb-20">
+                        <div class="price-blog active iq-pall-20 iq-pt-30 iq-pb-30 text-center wow slideInUp" data-wow-duration="1.5s">
+                            <h3>Starter Plan #2</h3>
+                            <div class="price"><span>49 $</span> / Month</div>
+                            <div class="listing iq-mt-40">
+                                <ul>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>Photoshop</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>HTML5 &amp; CSS 5</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>Wordpress</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>Javascript</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-times" aria-hidden="true"></i></span>Animation</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12 d-flex justify-content-center iq-mt-30">
+                                <a class="button" href="#">Get Premium Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 iq-mtb-20">
+                        <div class="price-blog iq-pall-20 iq-pt-30 iq-pb-30 text-center wow slideInUp" data-wow-duration="1.8s">
+                            <h3>Extras & Maintenance</h3>
+                            <div class="price"><span>99 $</span> / Month</div>
+                            <div class="listing iq-mt-40">
+                                <ul>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>Photoshop</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>HTML5 &amp; CSS 5</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>Wordpress</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>Javascript</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>Animation</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12 d-flex justify-content-center iq-mt-30">
+                                <a class="button light" href="#">Get Ultimate Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing -->
+        <!--================================-->
+<!--Pricing-->
+     <section class="iq-ptb-60 white-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="heading-title">
+                            <h3>Pricing</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley,</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 iq-mtb-20">
+                        <div class="price-blog iq-pall-20 iq-pt-30 iq-pb-30 text-center wow slideInUp" data-wow-duration="1.0s">
+                            <h3>Basic</h3>
+                            <div class="price"><span>19 $</span> / Month</div>
+                            <div class="listing iq-mt-40">
+                                <ul>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>Photoshop</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>HTML5 &amp; CSS 5</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-times" aria-hidden="true"></i></span>Wordpress</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-times" aria-hidden="true"></i></span>Javascript</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-times" aria-hidden="true"></i></span>Animation</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12 d-flex justify-content-center iq-mt-30">
+                                <a class="button light" href="#">Get Standard Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 iq-mtb-20">
+                        <div class="price-blog active iq-pall-20 iq-pt-30 iq-pb-30 text-center wow slideInUp" data-wow-duration="1.5s">
+                            <h3>Standard</h3>
+                            <div class="price"><span>49 $</span> / Month</div>
+                            <div class="listing iq-mt-40">
+                                <ul>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>Photoshop</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>HTML5 &amp; CSS 5</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>Wordpress</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>Javascript</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-times" aria-hidden="true"></i></span>Animation</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12 d-flex justify-content-center iq-mt-30">
+                                <a class="button" href="#">Get Premium Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 iq-mtb-20">
+                        <div class="price-blog iq-pall-20 iq-pt-30 iq-pb-30 text-center wow slideInUp" data-wow-duration="1.8s">
+                            <h3>Premium</h3>
+                            <div class="price"><span>99 $</span> / Month</div>
+                            <div class="listing iq-mt-40">
+                                <ul>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>Photoshop</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>HTML5 &amp; CSS 5</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>Wordpress</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>Javascript</li>
+                                    <li><span class="iq-mr-10"><i class="fa fa-check" aria-hidden="true"></i></span>Animation</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12 d-flex justify-content-center iq-mt-30">
+                                <a class="button light" href="#">Get Ultimate Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing -->
+        <!--================================
     <!-- About Service -->
     <!-- Testimonial -->
-    <section class="overview-block-ptb iq-testimonial iq-bg iq-bg-fixed" style="background-image:url(images/bannerpic3b.jpg);">
+    <section class="overview-block-ptb iq-testimonial iq-bg iq-bg-fixed" style="background-color: black;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                     <div class="heading-title">
-                        <h3 class="title">Testimonial</h3>
+                        <h3 style="color: white";>Testimonial</h3>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
                     </div>
                 </div>
@@ -678,6 +836,9 @@ Text of the printing and typesetting industry.
             <div class="row">
                 <div class="col-lg-12">
                     <div class="iq-breadcrumb">
+					<br></br>
+					<br></br>
+					<br></br>
                         <h2 class="text-uppercase iq-font-white">Portfolio</h2>
                         <h6 class="iq-font-white">Home / Portfolio</h6>
                     </div>
@@ -693,47 +854,47 @@ Text of the printing and typesetting industry.
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="isotope-filters text-isotope">
-                            <button data-filter="" class="all active">All</button>
-                            <button data-filter=".design">web-design</button>
-                            <button data-filter=".illustration">web-hosting</button> <!-- .illustration-->
-                            <button data-filter=".branding">seo</button> <!--.branding-->
+                            <button data-filter="" class=""></button>
+                            <button data-filter=".design"></button>
+                            <button data-filter=".illustration"></button> <!-- .illustration-->
+                            <button data-filter=".branding"></button> <!--.branding-->
                             <button data-filter=".design"></button>
                         </div>
                     </div>
                     <div class="col-lg-12 col-md-12">
-                        <div class="isotope column-space column-2 popup-gallery">
+                        <div class="isotope column-space column-2 popup-gallery " class="portfolio">
                             <div class="grid-item illustration photography">
-                                <div class="portfolio-snip">
+                                <div>
                                     <img class="img-fluid" src="http://via.placeholder.com/600x450" alt="#">
                                     <div class="snip-details text-center">
-                                        <a class="iq-full popup-img" href="http://via.placeholder.com/600x450"> <i class="ion-ios-camera-outline"></i> </a>
+                                        <a class="iq-full popup-img" href="http://via.placeholder.com/600x450"> <i class="iq-font-white ion-ios-camera-outline"></i> </a>
                                         <h4 class="item-title"><a href="#">Portfolio Title</a></h4>
                                         <span class="category">Creative, Minimal, Web, Design</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="grid-item design branding">
-                                <div class="portfolio-snip">
+                                <div>
                                     <img class="img-fluid" src="http://via.placeholder.com/600x450" alt="#">
                                     <div class="snip-details text-center">
-                                        <a class="iq-full popup-img" href="http://via.placeholder.com/600x450"> <i class="ion-ios-camera-outline"></i> </a>
+                                        <a class="iq-full popup-img" href="http://via.placeholder.com/600x450"> <i class="iq-font-white ion-ios-camera-outline"></i> </a>
                                         <h4 class="item-title"><a href="#">Portfolio Title</a></h4>
                                         <span class="category">Animation, Design, Web</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="grid-item illustration branding">
-                                <div class="portfolio-snip">
+                                <div>
                                     <img class="img-fluid" src="http://via.placeholder.com/600x450" alt="#">
                                     <div class="snip-details text-center">
-                                        <a class="iq-full popup-img" href="http://via.placeholder.com/600x450"> <i class="ion-ios-camera-outline"></i> </a>
+                                        <a class="iq-full popup-img" href="http://via.placeholder.com/600x450"> <i class="iq-font-white ion-ios-camera-outline"></i> </a>
                                         <h4 class="item-title"><a href="#">Portfolio Title</a></h4>
                                         <span class="category">Animation, Digital, Illustrator</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="grid-item branding">
-                                <div class="portfolio-snip">
+                                <div>
                                     <img class="img-fluid" src="http://via.placeholder.com/600x450" alt="#">
                                     <div class="snip-details text-center">
                                         <a class="iq-full popup-img" href="http://via.placeholder.com/600x450"> <i class="ion-ios-camera-outline"></i> </a>
@@ -839,6 +1000,9 @@ Text of the printing and typesetting industry.
             <div class="row">
                 <div class="col-lg-12">
                     <div class="iq-breadcrumb">
+					<br></br>
+					<br></br>
+					<br></br>
                         <h2 class="text-uppercase iq-font-white">Contact Us</h2>
                         <h6 class="iq-font-white">Home / Contact Us</h6>
                     </div>
@@ -1023,22 +1187,22 @@ Text of the printing and typesetting industry.
     <!-- Main Content End -->
     <!--=================================
 Footer -->
-    <footer class="iq-footer3 iq-pt-40 iq-over-dark-60 iq-bg iq-bg-fixed" style="background-image:url(http://via.placeholder.com/1920x1080);">
+    <footer class="iq-footer3 iq-pt-40 iq-over-dark-60 iq-bg iq-bg-fixed"  style="background-image:url(http://via.placeholder.com);">
         <div class="footer-top">
             <div class="container">
                 <div class="row iq-mb-20">
                     <div class="col-lg-3 col-sm-6 iq-mtb-30">
                         <div class="logo">
-                           <!-- <img class="img-fluid" src="images/logo-white.png" alt="#">
-                            <div class="iq-font-white iq-mt-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>-->
+                           <img alt="images" class="img-responsive iq-mb-10" src="images/kwslogo2.png" height="70px" width="250px">
+                            <div class="iq-font-white iq-mt-15">KWS diligently strives to assist a variety of businesses and organizations in enhancing their online presence and communities. Whether the goal is to improve user experience with custom web design, find the right web hosting plan, or improve site traffic with SEO; we're here to help.</div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 iq-mtb-30 iq-link">
-                        <h4 class="small-title iq-tw-6 iq-font-white">Menu</h4>
+                    <div class="col-lg-3 col-sm-6 iq-mtb-30 iq-link" >
+                        <h4 class="small-title iq-tw-6 iq-font-white" >Menu</h4>
                         <ul>
                             <li><a href="#index.html">Home</a></li>
-                            <li><a href="#about-me.html">About</a></li>
-                            <li><a href="#creative-services.html">Services</a></li>
+                            <li><a href="#about-me.html" >About</a></li>
+                            <li><a href="#creative-services.html" >Services</a></li>
                             <li><a href="#portfolio-grid-2.html">Portfolio</a></li>
                             <li><a href="#contact-us.html">Contact</a></li>
                         </ul>
@@ -1048,14 +1212,14 @@ Footer -->
                         <ul class="iq-post">
                             <li>
                                 <div class="post-img"> <img src="http://via.placeholder.com/140x140" alt="#"> </div>
-                                <div class="post-blog"> <a href="#">Ipsum is simply dummy text.</a>
-                                    <div class="iq-font-pink iq-date"><i class="fa fa-calendar"></i> Nov 10, 2016</div>
+                                <div class="post-blog"> <a href="#">Coming Soon!</a>
+                                    <div class="iq-font-pink iq-date"><i class="fa fa-calendar"></i> Aug 1, 2018</div>
                                 </div>
                             </li>
                             <li>
                                 <div class="post-img"> <img src="http://via.placeholder.com/140x140" alt="#"> </div>
-                                <div class="post-blog"> <a href="#">Simply dummy text of the printing.</a>
-                                    <div class="iq-font-pink iq-date"><i class="fa fa-calendar"></i> Nov 10, 2016</div>
+                                <div class="post-blog"> <a href="#">Coming Soon!</a>
+                                    <div class="iq-font-pink iq-date"><i class="fa fa-calendar"></i> Aug 8, 2018</div>
                                 </div>
                             </li>
                         </ul>
@@ -1088,7 +1252,7 @@ Footer -->
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 iq-mtb-20">
-                        <div class="iq-copyright iq-mt-10">Copyright <span id="copyright"> <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> <a href="#">Showkase</a> All Rights Reserved </div>
+                        <div class="iq-copyright iq-mt-10">Copyright <span id="copyright"> <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> <a href="#">Kingsberry Web Solutions</a> All Rights Reserved </div>
                     </div>
                     <div class="col-sm-6 iq-mtb-20">
                         <ul class="iq-media-blog">
