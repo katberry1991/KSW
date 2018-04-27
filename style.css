@@ -509,7 +509,7 @@ header.hd-border.menu-sticky { box-shadow: none; }
   header nav.w-100.justify-content-end { position: absolute; right: 0; top: -28px; text-align: right; }
   .menu { display: none; }
   header.menu-sticky .menu li a { padding: 10px 21px 10px; }
-  .responsive-menu { display: block; }
+  .responsive-menu { display: block; background-color: #fa7b80; color: #fff; }
   nav { margin: 0; background: none; }
   header .menu.text-right { text-align: left !important; }
   .menu li { display: block; margin: 0; }
