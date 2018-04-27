@@ -501,7 +501,7 @@ header.hd-border.menu-sticky { box-shadow: none; }
 }
 @media (max-width:767px) {
   header.transparent { background: #1a1a1a; }
-  header.transparent .responsive-menu:hover { color: #fff; }
+  header.transparent .responsive-menu: { color: #fff; }
   .logo a img { height: auto; }
   header.menu-sticky { padding: 15px 0; }
   header { position: relative; padding: 15px 0; }
@@ -515,7 +515,7 @@ header.hd-border.menu-sticky { box-shadow: none; }
   .menu li { display: block; margin: 0; }
   .menu li a { background: #1a1a1a; color: #ffff; padding: 10px 21px 10px; }
   .menu li a:hover, .menu li:hover>a { color: #fff; background: #fa7b80; }
- /* .menu ul { visibility: hidden; opacity: 0; top: 0; left: 0; width: 100%; transform: initial; }*/
+ .menu ul { visibility: hidden; opacity: 0; top: 0; left: 0; width: 100%; transform: initial; }
   .menu li:hover>ul { visibility: visible; opacity: 1; position: relative; transform: initial; }
   .menu ul ul { left: 0; transform: initial; }
   .menu li>ul ul:hover { transform: initial; }
