@@ -470,7 +470,7 @@ header.menu-sticky .menu li .sub-menu li a { padding: 10px 25px; }
 .menu li:hover>ul { visibility: visible; opacity: 1; transform: translate(0, 0); }
 .menu ul ul { left: 175px; top: 0px; visibility: hidden; opacity: 0; transform: translate(20px, 20px); transition: all 0.2s ease-out; }
 .menu li>ul ul:hover { visibility: visible; opacity: 1; transform: translate(0, 0); }
-.responsive-menu { display: none; width: 100%; padding: 0 20px 20px; font-size: 18px; color: #fa7b80; text-transform: uppercase; }
+.responsive-menu { display: none; width: 100%; padding: 0 20px 20px; font-size: 18px; background-color: #fa7b80; color: #fff; text-transform: uppercase; }
 .responsive-menu:hover { color: #1a1a1a; text-decoration: none; }
 
 /*---- Header transparent ----*/
