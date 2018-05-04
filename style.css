@@ -435,11 +435,11 @@ section:hover .heading-title .title:before { width: 98%; }
                                  Buttons
 -----------------------------------------------------------------------*/
 .button { background: #1a1a1a; font-size: 16px; color: #fff; padding: 10px 20px; margin-right: 0; border-radius: 3px; display: inline-block; text-transform: capitalize; position: relative; box-shadow: none; border: none; }
-.button:hover, .button:focus { color: #ffffff; background: #fa7b80; }
+.button:hover, .button:focus { color: #fff; background: #fa7b80; }
 
 /* Button white */
 .button.white { background: #fff; color: #222222; border: 1px solid #fff; }
-.button.white:hover, .button.white:focus { color: #ffffff; background: #fa7b80; border: 1px solid #fa7b80; }
+.button.white:hover, .button.white:focus { color: #fff; background: #fa7b80; border: 1px solid #fa7b80; }
 
 /* Button Simple */
 .button-simple { font-size: 16px; text-transform: capitalize; color: #1a1a1a; }
