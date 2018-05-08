@@ -501,7 +501,7 @@ header.hd-border.menu-sticky { box-shadow: none; }
 }
 @media (max-width:767px) {
   header.transparent { background: #1a1a1a; }
-  header.transparent .responsive-menu:hover { color: #fff; }
+  header.transparent .responsive-menu: { color: #fff; }
   .logo a img { height: auto; }
   header.menu-sticky { padding: 15px 0; }
   header { position: relative; padding: 15px 0; }
