@@ -1185,3 +1185,9 @@ body.black header .menu ul li a:hover, body.black header .menu ul li:hover>a { b
      float: left; position: absolute; top: 61%; padding-left: 10%;
 } /*margin-top: -40%*for smaller screen size s for tagline to display correctly*/
 .leftpic { position: absolute; top: 311%;  width: 90%; padding-left: 30%}  /*top=*311*/
+
+table.center {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+  }
